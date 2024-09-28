@@ -168,6 +168,9 @@ header .navbar {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+
+    
+
 }
 
 .item {
@@ -181,6 +184,9 @@ header .navbar {
     justify-content: flex-end;
     padding: 1rem;
     box-shadow: 0px 0px 10px 0px #333 inset;
+
+
+    
 }
 
 
@@ -188,6 +194,8 @@ header .navbar {
     width: 2rem;
     height: 2rem;
     flex-shrink: 0;
+
+    
 }
 
 .item p {
@@ -205,6 +213,7 @@ header .navbar {
   .item:hover  img{
      filter: invert(30%) sepia(90%) saturate(2000%) hue-rotate(290deg) brightness(60%) contrast(120%);
 
+     
   }
 
 /* SECTION EDUCATIONAL */
