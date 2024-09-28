@@ -291,6 +291,8 @@ header .navbar {
     gap: 1rem;
 }
 
+
+
 .project-name {
     font-size: var(--font-size-mid-small);
     font-weight: 700;
@@ -313,6 +315,12 @@ header .navbar {
     width: 18.5rem;
     height: 9rem;
     box-shadow: 0 4px 10px var(--color-primary);
+}
+
+.project-image:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(12, 94, 43);
+    transition: all 0.2s ease;
 }
 
 .project-links {
