@@ -135,6 +135,15 @@ header .navbar {
     */
 }
 
+.about-me-section:hover {
+    background-image: url('https://www.transparenttextures.com/patterns/clouds.png'); /* Fondo de nubes */
+    transform: scale(1.03); /* Agrandar el cuadro */
+    background-color: #0e721f; /* O cambiar el color si prefieres */
+    /* POSIBLE CAMBIO DE GRADIANTE */
+    background-image: linear-gradient(to left,rgb(196, 196, 196),rgb(10, 102, 41));
+   
+}
+
 .about-me-details {
     display: flex;
     flex-direction: column;
