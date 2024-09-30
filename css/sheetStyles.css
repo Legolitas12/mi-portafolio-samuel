@@ -36,6 +36,11 @@ body {
     font-size: 16px;
     color: rgb(7, 6, 6);
     box-sizing: border-box;
+
+    /* POSIBLE CAMBIO DE GRADIANTE */
+    /* background-image: linear-gradient(to left,rgb(10, 102, 41),rgb(255, 255, 255));
+    height: 100vh;
+    */
 }
 
 /* SECTION HEADER */
@@ -124,6 +129,10 @@ header .navbar {
     display: flex;
     padding: 1rem;
     gap: 0.625rem;
+    
+    /* POSIBLE CAMBIO DE GRADIANTE */
+    /* background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(10, 102, 41));
+    */
 }
 
 .about-me-details {
@@ -132,6 +141,11 @@ header .navbar {
     color: var(--color-secondary);
     gap: 1rem;
     padding: 1rem;
+
+    /* POSIBLE CAMBIO DE GRADIANTE */
+    /* background-image: linear-gradient(to left,rgb(255, 255, 255),rgb(10, 102, 41));
+    */
+    
 }
 
 .about-me-details h2,
